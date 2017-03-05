@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class JsonToXMLContoller {
 	@RequestMapping("/")
 	String home() {
+		System.out.println(".....................In Controller Class.....................");
 		return "Hello World!";
 	}
 
